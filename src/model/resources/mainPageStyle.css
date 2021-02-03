@@ -1,0 +1,149 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#mainPane{
+	 -fx-background-image: url('/model/resources/bg.jpg');
+	 -fx-background-size: 100% 100%;
+}
+#settingsButton{
+	-fx-padding: 20px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('/model/resources/settings-xxl.png');
+	-fx-background-size: 30;
+	-fx-background-position: left 5px top 5px;
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius:10;
+}
+
+@font-face {
+
+	src: url('resources/LEMONMILK-Regular.otf');
+}
+#settingsButton:hover{
+	
+    -fx-rotate : 15;
+}
+#newGameButton{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(142, 45, 226,1), rgba(74, 0, 224,1));
+	-fx-opacity: 1;
+	-fx-background-radius:25;
+    -fx-font-size:15pt;
+    -fx-text-fill: f1faee;
+    -fx-font-family: 'LEMON MILK Regular';
+}
+#newGameButton:hover {
+    
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(142, 45, 226,0.5), rgba(74, 0, 224,0.5));
+	
+}
+#newGameButton:pressed {
+    
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(142, 45, 226,0.3), rgba(74, 0, 224,0.3))
+	
+}
+#exitButton{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(236, 0, 142,1), rgba(252, 103, 103,1));
+	-fx-opacity: 1;
+	-fx-background-radius:25;
+    -fx-font-size:15pt;
+    -fx-text-fill: f1faee;
+    -fx-font-family: 'LEMON MILK Regular';
+}
+#exitButton:hover {
+    
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(236, 0, 142,0.5), rgba(252, 103, 103,0.5));
+	
+}
+#exitButton:pressed {
+    
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(236, 0, 142,0.3), rgba(252, 103, 103,0.3));
+	
+}
+#helpButton{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(0, 242, 97,1), rgba(5, 118, 230,1));
+	-fx-opacity: 1;
+	-fx-background-radius:25;
+    -fx-font-size:15pt;
+    -fx-text-fill: f1faee;
+    -fx-font-family: 'LEMON MILK Regular';
+}
+#helpButton:hover {
+    
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(0, 242, 97,0.5), rgba(5, 118, 230,0.5));
+	
+}
+#helpButton:pressed {
+    
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(0, 242, 97,0.3), rgba(5, 118, 230,0.3));
+	
+}
+#popOut{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(142, 45, 226,0.7), rgba(74, 0, 224,0.7));
+	-fx-background-radius:20;
+}
+#stayButton{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(236, 0, 142,1), rgba(252, 103, 103,1));
+	-fx-opacity: 1;
+	-fx-background-radius:25;
+    -fx-font-size:15pt;
+    -fx-text-fill: f1faee;
+    -fx-font-family: 'LEMON MILK Regular';
+}
+#ExitMsg{
+	-fx-font-size:15pt;
+    -fx-text-fill: f1faee;
+    -fx-font-family: 'LEMON MILK Regular';
+}
+#infoLabel{
+
+	-fx-font-family: 'LEMON MILK Regular';
+    -fx-font-size:15pt;
+    -fx-text-fill: f1faee;
+}
+
+#backButton{
+	-fx-padding: 20px;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('/model/resources/angle-circle-arrow-right.png');
+	-fx-background-size: 30;
+	-fx-background-position: left 5px top 5px;
+	-fx-background-color: WHITE;
+	-fx-border-color: white;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius:10;
+}
+#menuChoices{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgb(51, 204, 255), rgb(0, 43, 128));
+	-fx-opacity: 1;
+	-fx-background-radius:25;
+	-fx-font-family: 'LEMON MILK Regular';
+    -fx-font-size:10pt;
+    -fx-text-fill: f1faee;
+}
+
+#menuChoices:hover{
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(51, 204, 255, 0.5), rgba(0, 43, 128,0.5));
+
+    -fx-rotate : 15;
+}
+
+#onButton{
+
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('/model/resources/switch-on.png');
+	-fx-background-size: 50;
+
+	-fx-background-color: transparent;
+
+	src: url('resources/LEMONMILK-Regular.otf');
+}
+
+#offButton{
+
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('/model/resources/switch-off.png');
+	-fx-background-size: 50;
+
+	-fx-background-color: transparent;
+
+}
